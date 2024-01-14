@@ -3,7 +3,7 @@ services:
     name: Auto filter shortner
     runtime: python
     region: singapore
-    branch: master
+    branch: main
     rootDir: .
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn web.app:app & python3 bot.py
