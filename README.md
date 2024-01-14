@@ -80,6 +80,9 @@ You can deploy this bot anywhere.
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/url-auto-delete-shortener-bot&branch=koyeb&name=urlshortautofilterbot)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Omjisahil07/autofiltershortnerbot)
+
+
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>

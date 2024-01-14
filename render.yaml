@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: Auto filter shortner
+    runtime: python
+    region: singapore
+    branch: master
+    rootDir: .
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn web.app:app & python3 bot.py
+    autoDeploy: false
+
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: CHANNELS
+        sync: false
+      - key: ADMINS
+        sync: false
+      - key: PICS
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false
+      - key: AUTH_USER
+        sync: false
+      - key: DATABASE_URI
+        sync: false
+      
+      - key: DATABASE_NAME
+        sync: false
+      - key: COLLECTION_NAME
+        sync: false
+
+    plan: free
